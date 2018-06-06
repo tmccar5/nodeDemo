@@ -18,7 +18,7 @@ app.get('/about', function(req, res) {
 	res.sendFile(path.join(__dirname, "./public/about.html"));
 });
 
-app.listen(3001, function() {
+app.listen(PORT, function() {
 	console.log("Listening on port: " + 3001);
 });
 
